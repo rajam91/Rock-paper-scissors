@@ -3,8 +3,8 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #ffcc4d, #ff9900);
-  color: #5c3b00;
+  background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,23 +18,23 @@ body {
   max-width: 500px;
   width: 90%;
   text-align: center;
-  background: rgba(255, 204, 77, 0.9);
+  background: rgba(255, 182, 193, 0.9);
   border-radius: 20px;
   padding: 25px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 16px rgba(255, 105, 180, 0.6);
   backdrop-filter: blur(12px);
   transition: all 0.3s ease-in-out;
 }
 
 .container:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 12px 24px rgba(255, 105, 180, 0.7);
 }
 
 h1 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #d17a00;
+  color: #ff1493;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1.2px;
@@ -44,19 +44,19 @@ button {
   margin: 10px;
   padding: 14px 28px;
   font-size: 1.1rem;
-  background: linear-gradient(45deg, #ffcc4d, #ff9900);
-  color: #5c3b00;
+  background: linear-gradient(45deg, #ff69b4, #ff1493);
+  color: #fff;
   border: none;
-  border-radius: 12px;
+  border-radius: 20px;
   cursor: pointer;
   transition: transform 0.2s ease, background 0.3s ease;
   font-weight: 600;
-  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.4);
   outline: none;
 }
 
 button:hover {
-  background: linear-gradient(45deg, #ffb84d, #e68a00);
+  background: linear-gradient(45deg, #ff85b4, #ff47a3);
   transform: scale(1.08);
 }
 
@@ -67,7 +67,7 @@ button:active {
 .content {
   font-size: 1.1rem;
   font-weight: 500;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 2px 4px rgba(255, 20, 147, 0.6);
   letter-spacing: 1px;
   max-width: 90%;
 }
@@ -76,19 +76,19 @@ button:active {
   margin: 12px;
   padding: 14px 28px;
   font-size: 1.1rem;
-  background: linear-gradient(45deg, #ffcc4d, #ff9900);
-  color: #5c3b00;
+  background: linear-gradient(45deg, #ff69b4, #ff1493);
+  color: #fff;
   border: none;
-  border-radius: 12px;
+  border-radius: 20px;
   cursor: pointer;
   transition: transform 0.2s ease, background 0.3s ease;
   font-weight: 600;
-  box-shadow: 0 4px 12px rgba(255, 153, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.4);
   outline: none;
 }
 
 .choice-button:hover {
-  background: linear-gradient(45deg, #ffb84d, #e68a00);
+  background: linear-gradient(45deg, #ff85b4, #ff47a3);
   transform: scale(1.08);
 }
 
@@ -100,6 +100,12 @@ button:active {
   margin-top: 20px;
   font-size: 1.3rem;
   font-weight: bold;
-  color: #ffcc4d;
-  text-shadow: 2px 2px 5px rgba(255, 204, 77, 0.8);
+  color: #ff1493;
+  text-shadow: 2px 2px 5px rgba(255, 20, 147, 0.8);
+}
+
+.game-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
 }

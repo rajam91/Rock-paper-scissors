@@ -54,7 +54,8 @@ class Game extends Component{
         const {playerVal, computerVal, playerScore, compScore} = this.state;
         return(
             <div className="container">
-                <h1>Welcome to my Rock,Paper,Scissors Game</h1>
+                <img src="/Users/marwah/Rock-paper-scissors/rock-paper/public/IMG_2363.JPG" alt="Game Illustration" className="game-image" />
+                <h1>Welcome to  Marwah's Rock,Paper,Scissors Game</h1>
                 <div >
                     <button onClick={()=>this.decision("ROCK")}>
                         <i className={`fas fa-hand-rock`} /> Rock
